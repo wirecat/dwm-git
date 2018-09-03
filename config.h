@@ -30,7 +30,7 @@ static const Rule rules[] = {
 	/* class              instance    title       tags mask     isfloating   monitor */
 	{ "Steam",            NULL,       NULL,       1 << 8,       1,           -1 },
 	{ "discord",          NULL,       NULL,       1 << 7,       1,           -1 },
-	{ "Google-chrome",    NULL,       NULL,       0,            1,           -1 },
+	{ "Google-chrome",    NULL,       NULL,       0,            0,           -1 },
 	{ "danOs",            NULL,       NULL,       0,            1,           -1 },
 	{ "Gimp",             NULL,       NULL,       0,            1,           -1 },
 	{ "Anki",             NULL,       NULL,       0,            1,           -1 },
