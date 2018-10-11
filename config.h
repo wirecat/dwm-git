@@ -41,7 +41,7 @@ static const Rule rules[] = {
 	{ "Anki",             NULL,       NULL,                   0,            1,           -1 },
 	{ "Transmission-gtk", NULL,       NULL,                   0,            1,           -1 },
 	{ "Dwarf_Fortress",   NULL,       NULL,                   0,            0,            0 },
-	{ "Termite",          NULL,       "tty-countdown -m 25",  0,            1,            0 },
+	{ "Termite",          NULL,       "tty-countdown -m 25",  0,            1,           -1 },
 };
 
 /* layout(s) */
