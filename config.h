@@ -33,16 +33,16 @@ static const Rule rules[] = {
      *    WM_CLASS(STRING) = instance, class
      *    WM_NAME(STRING) = title
      */
-    /* class              instance    title                   tags mask     isfloating   monitor */
-    { "Steam",            NULL,       NULL,                   0,            1,           -1 },
-    { "discord",          NULL,       NULL,                   0,            1,           -1 },
-    { "Google-chrome",    NULL,       NULL,                   0,            0,           -1 },
-    { "danOs",            NULL,       NULL,                   0,            1,           -1 },
-    { "Gimp",             NULL,       NULL,                   0,            1,           -1 },
-    { "Anki",             NULL,       NULL,                   0,            1,           -1 },
-    { "Transmission-gtk", NULL,       NULL,                   0,            1,           -1 },
-    { "Dwarf_Fortress",   NULL,       NULL,                   0,            0,            0 },
-    { "Termite",          NULL,       "tty-countdown -m 25",  0,            1,           -1 },
+    /* class              instance    title                   tags mask     x,    y,    isCentered, isfloating   monitor */
+    { "Steam",            NULL,       NULL,                   0,            0,    0,    1,          1,           -1 },
+    { "discord",          NULL,       NULL,                   0,            0,    0,    1,          1,           -1 },
+    { "Google-chrome",    NULL,       NULL,                   0,            0,    0,    0,          0,           -1 },
+    { "danOs",            NULL,       NULL,                   0,            0,    0,    0,          1,           -1 },
+    { "Gimp",             NULL,       NULL,                   0,            0,    0,    1,          1,           -1 },
+    { "Anki",             NULL,       NULL,                   0,            0,    0,    1,          1,           -1 },
+    { "Transmission-gtk", NULL,       NULL,                   0,            0,    0,    1,          1,           -1 },
+    { "Dwarf_Fortress",   NULL,       NULL,                   0,            0,    0,    0,          0,            0 },
+    { "Termite",          NULL,       "tty-countdown -m 25",  511,          2235, 0,    0,          1,           -1 },
 };
 
 /* layout(s) */
